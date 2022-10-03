@@ -162,6 +162,7 @@
             /* MEDIA QUERY  */
 
 
+            /* TABLET PORT  */
    @media screen and (min-width: 768px) {
     
     div#phonecard {
@@ -192,6 +193,41 @@
     #arrowplan {
         margin: 20px 46%;
     }
+
+    #testcontainer {
+
+    }
+
+    .testcard {
+        display: flex;
+        padding: 3% 5%;        
+        align-items: center;
+    }
+
+    .testimg img {
+        width: 100%;
+       }
+
+     .testcard p {
+        padding: 0%;
+
+     }
+     
+     .testtext {
+        width: auto;
+        padding-left: 3%;
+     }
+
+    .testcard h3 {
+        padding-top: 3%;
+        text-align: left;
+        padding-left: 3%;
+    }
+
+}
+
+
+            /* DESKTOP PORT  */
 
 @media screen and (min-width: 992px) {
 
@@ -236,3 +272,5 @@
    .plansec {
     margin: auto;
    }
+
+}
