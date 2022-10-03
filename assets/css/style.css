@@ -176,7 +176,7 @@
         margin: 20px 10px 20px 10px;
     }
 
-    .bftscard h1,h2 {
+    .bftscard h1, .bftscard h2 {
         color: #9792e4;
         padding: 10px 0px 10px 0px ;
     }
@@ -198,6 +198,47 @@
         padding: 20px 0px 40px 0px;
         font-size: 2rem;
     }
+
+    .aboutcontainer {
+        line-height: 30px;
+    }
+
+    .aboutext {
+        padding: 30px 0px 30px 0px;
+    }
+
+    .aboutext h1 {
+        font-size: 2.9rem;
+        color: #9792e4;
+        padding: 10px 0px 30px 0px;
+    }
+
+    .aboutimg img {
+        width: 100%;
+        aspect-ratio: 1/1;
+        border-radius: 50%;
+        object-fit: cover;
+        position: relative;
+    }
+
+    #quoteabout {
+        position: absolute;
+        font-size: 7rem;
+        color: #9792e4;
+        right: 20px;
+    }
+
+    .aboutimg h3 {
+        color: #9792e4;
+        font-size: 2rem;
+        padding: 20px 0px 25px 0px;
+    }
+
+    .aboutimg button {
+        color: white;
+        background-color: #9792e4;
+    }
+
 
             /* MEDIA QUERY  */
 
