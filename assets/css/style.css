@@ -157,7 +157,15 @@
     justify-content: space-between;
 }
 
-}
+    .planning h2 {
+        padding-bottom: 40px;
+        font-size: 3rem;
+
+    }
+
+    #arrowplan {
+        margin: 20px 46%;
+    }
 
 @media screen and (min-width: 992px) {
 
@@ -199,3 +207,6 @@
     display: flex;
    }
 
+   .plansec {
+    margin: auto;
+   }
