@@ -313,12 +313,23 @@
     .bftscard {
         width: calc(90% /2);
     }
-    
 
-
+    .aboutcontainer {
+        display: flex;
 }
 
+    .aboutimg {
+        padding: 30px;
+    }
 
+    #relative {
+        padding: 30px;
+    }
+
+    #quoteabout {
+        right: 70px;
+
+    }
             /* DESKTOP PORT  */
 
 @media screen and (min-width: 992px) {
@@ -405,4 +416,24 @@
     margin: 20px 10px 0px 10px;
 }
 
+
+.aboutext {
+    padding-right: 10%;
+}
+
+.aboutimg img {
+    width: 70%;
+}
+
+.aboutimg h3 {
+    padding-right: 10%;
+}
+
+#quoteabout {
+    right: 25%;
+} 
+
+#relative {
+    padding: 0% 0% 20% 20%;
+}
 }
