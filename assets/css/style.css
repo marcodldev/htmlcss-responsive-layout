@@ -146,5 +146,22 @@
         display: flex;
     }
     
+    div#phonecard {
+        width: 66%;
+        display: flex;
+   }
 
+   #phone img{
+    width: 100%;
+    display: block;
+   }
+
+   #phone {
+    display: flex;
+   }
+
+    section {
+        width: 70%;
+        margin: auto;
+    }
 }
