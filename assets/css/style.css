@@ -5,6 +5,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    list-style: none;
  }
 
  .flex {
@@ -13,6 +14,10 @@
    
     .f-space-between {
     justify-content: space-between
+   }
+
+   .f-align-center {
+    align-items: center;
    }
 
    .bgpurple {
@@ -25,6 +30,7 @@
     border: none;
     font-size: 1.1rem;
     font-weight: bold;
+    cursor: pointer;
    }
 
    .btnblue {
@@ -44,7 +50,16 @@
     padding: 10px 20px;
     font-size: 1.4rem;
     align-items: center;
+    justify-content: space-between;
 
+   }
+
+   .menunav {
+    display: none;
+   }
+
+   .menu {
+    align-items: center;
    }
 
    .hdcard {
@@ -105,4 +120,31 @@
 
 }
 
-@media screen and (min-width: 992px)
+@media screen and (min-width: 992px) {
+
+    .menunav{
+        display: inline-block;
+        display: flex;
+    }
+
+    .fa-bars{
+        display: none;
+    }
+
+    header i {
+        display: none;
+    }
+
+    header li {
+        margin: 0px 10px;
+        cursor: pointer;
+    }
+
+    .margin70 {
+        width: 70%;
+        margin: auto;
+        display: flex;
+    }
+    
+
+}
