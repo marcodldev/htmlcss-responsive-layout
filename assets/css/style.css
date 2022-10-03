@@ -20,6 +20,10 @@
     align-items: center;
    }
 
+   .textalign {
+    text-align: center;
+   }
+
    .bgpurple {
     background-color: #9792e4;
    }
@@ -131,6 +135,28 @@
         padding: 9px 10px;
         background-color: #9792e4;
         margin: 20px 141px;
+    }
+
+    .testimonial h2 {
+       color:  #9792e4;
+       padding: 30px 0px;
+    }
+
+    .testcard {
+        background-color: #9792e4;
+        border-radius: 60px;
+        padding: 10%;
+        color: white;
+        margin-top: 50px;
+    }
+
+    .testimg img {
+     max-width: -webkit-fill-available;
+    }
+
+    .testcard p {
+        padding: 30px 0px;
+        font-size: large;
     }
 
             /* MEDIA QUERY  */
