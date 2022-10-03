@@ -168,12 +168,47 @@
         font-size: large;
     }
 
+    .bftscard {
+        background-color: white;
+        border-radius: 20px;
+        padding: 30px;
+        line-height: 30px;
+        margin: 20px 10px 20px 10px;
+    }
+
+    .bftscard h1,h2 {
+        color: #9792e4;
+        padding: 10px 0px 10px 0px ;
+    }
+
+    .bftscard button {
+        margin-top: 20px;
+        color: white;
+        background-color: #9792e4;
+    }
+
+    .bftscard h1 {
+        font-size: 2rem;
+        font-weight: normal;
+    }
+
+    #bfth1 h1 {
+        color: white;
+        text-align: center;
+        padding: 20px 0px 40px 0px;
+        font-size: 2rem;
+    }
+
             /* MEDIA QUERY  */
 
 
             /* TABLET PORT  */
    @media screen and (min-width: 768px) {
     
+    #cleancode {
+        margin-top: 0%;
+    }
+
     div#phonecard {
         width: 66%;
    }
@@ -229,12 +264,27 @@
         padding-left: 3%;
     }
 
+    .bftscardcontainer {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .bftscard {
+        width: calc(90% /2);
+    }
+    
+
+
 }
 
 
             /* DESKTOP PORT  */
 
 @media screen and (min-width: 992px) {
+
+    #cleancode {
+        margin-top: 0%;
+    }
 
     .menunav{
         display: inline-block;
@@ -304,5 +354,14 @@
     padding-left: 3%;
 }
 
+.bftscardcontainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bftscard {
+    width: calc(90% /3);
+    margin: 20px 10px 0px 10px;
+}
 
 }
