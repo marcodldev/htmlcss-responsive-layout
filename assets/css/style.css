@@ -28,6 +28,11 @@
     background-color: #9792e4;
    }
 
+   .margin80 {
+    width: 80%;
+    margin: auto;
+   }
+
    .btn {
     border-radius: 50px;
     padding: 6px 60px;
@@ -87,7 +92,7 @@
    }
 
    #phone img{
-    width: 90%;
+    max-width: 300px;
     display: block;
    }
 
@@ -239,6 +244,51 @@
         background-color: #9792e4;
     }
 
+    .getst {
+    text-align: center;
+    line-height: 1.5rem;
+    color: white;
+    }
+
+    .getst h3, .getst p {
+        font-size: small;
+    }
+
+    .padding{
+        padding: 1.1rem;
+    }
+
+    .getst h1 {
+        color: #fdc15f;
+        font-size: 4rem;
+        padding: 40px 0px 40px 0px;
+
+    }
+
+    .getst button {
+        color: #9792e4;
+    }
+
+    footer {
+        background-color: #333333 ;
+        color: white;
+        text-align: center;
+        padding: 1.5rem;
+    }
+
+    footer p {
+        padding-bottom: 1.5rem;
+    }
+
+    .purp {
+        color: #9792e4;
+        display: inline;
+        border-bottom: 1px solid;
+        cursor: pointer;
+    }
+
+    
+
 
             /* MEDIA QUERY  */
 
@@ -330,6 +380,11 @@
         right: 70px;
 
     }
+
+    .margin60 {
+        width: 60%;
+        margin: auto;
+    }
             /* DESKTOP PORT  */
 
 @media screen and (min-width: 992px) {
@@ -367,7 +422,6 @@
    }
 
    #phone img{
-    width: 100%;
     display: block;
    }
 
