@@ -434,6 +434,15 @@
     flex-wrap: nowrap;
    }
 
+   #planning2 img {
+    width: 60%;
+}
+
+    #planning2 {
+    align-self: end;
+    margin-left: 50px;
+    }
+
    .testcard {
     display: flex;
     padding: 3% 5%;        
